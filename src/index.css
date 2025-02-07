@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.full-screen-section {
+  height: 100vh; /* Take up full screen height */
+  width: 100vw; /* Take up full screen width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any content that exceeds screen height */
+}
+
+.full-screen-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.full-screen-section p {
+  font-size: 18px;
+  color: #666;
+}
